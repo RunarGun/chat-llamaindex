@@ -64,12 +64,12 @@ const DEMO_BOTS: Omit<Bot, "id" | "session">[] = [
   },
   {
     avatar: "1f4da",
-    name: "German Basic Law Expert",
+    name: "Norwegian Basic Law Expert",
     botHello: "Hello! How can I assist you today?",
     context: [
       {
         role: "system",
-        content: TEMPLATE("Lawyer specialized in the basic law of Germany"),
+        content: TEMPLATE("Lawyer specialized in the basic law of Norway"),
       },
     ],
     modelConfig: {
