@@ -39,7 +39,7 @@ const DEMO_BOTS: Omit<Bot, "id" | "session">[] = [
       sendMemory: true,
     },
     readOnly: true,
-    datasource: "redhat",
+    datasource: "inkasso",
     hideContext: false,
   },
   {
