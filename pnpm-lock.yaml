@@ -45,8 +45,8 @@ dependencies:
     specifier: ^1.1.5
     version: 1.1.5(@types/react-dom@18.2.7)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
   '@radix-ui/react-tooltip':
-    specifier: ^1.0.6
-    version: 1.0.6(@types/react-dom@18.2.7)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^1.0.7
+    version: 1.0.7(@types/react-dom@18.2.7)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
   '@vercel/analytics':
     specifier: ^1.0.2
     version: 1.0.2
@@ -65,6 +65,9 @@ dependencies:
   clsx:
     specifier: ^2.0.0
     version: 2.0.0
+  dotenv:
+    specifier: ^16.3.1
+    version: 16.3.1
   emoji-picker-react:
     specifier: ^4.4.12
     version: 4.4.12(react@18.2.0)
@@ -81,8 +84,8 @@ dependencies:
     specifier: ^10.3.1
     version: 10.3.1
   nanoid:
-    specifier: ^4.0.2
-    version: 4.0.2
+    specifier: ^5.0.2
+    version: 5.0.2
   next:
     specifier: ^13.5.6
     version: 13.5.6(react-dom@18.2.0)(react@18.2.0)(sass@1.65.1)
@@ -108,8 +111,8 @@ dependencies:
     specifier: ^3.39.3
     version: 3.39.3(react-dom@18.2.0)(react@18.2.0)
   react-router-dom:
-    specifier: ^6.14.2
-    version: 6.14.2(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^6.17.0
+    version: 6.17.0(react-dom@18.2.0)(react@18.2.0)
   rehype-highlight:
     specifier: ^6.0.0
     version: 6.0.0
@@ -943,6 +946,36 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
+  /@radix-ui/react-popper@1.1.3(@types/react-dom@18.2.7)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-cKpopj/5RHZWjrbF2846jBNacjQVwkP068DfmgrNJXpvVWrOvlAmE9xSiy5OqeE+Gi8D9fP+oDhUnPqNMY8/5w==}
+    peerDependencies:
+      '@types/react': '*'
+      '@types/react-dom': '*'
+      react: ^16.8 || ^17.0 || ^18.0
+      react-dom: ^16.8 || ^17.0 || ^18.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      '@types/react-dom':
+        optional: true
+    dependencies:
+      '@babel/runtime': 7.23.1
+      '@floating-ui/react-dom': 2.0.2(react-dom@18.2.0)(react@18.2.0)
+      '@radix-ui/react-arrow': 1.0.3(@types/react-dom@18.2.7)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
+      '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.14)(react@18.2.0)
+      '@radix-ui/react-context': 1.0.1(@types/react@18.2.14)(react@18.2.0)
+      '@radix-ui/react-primitive': 1.0.3(@types/react-dom@18.2.7)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
+      '@radix-ui/react-use-callback-ref': 1.0.1(@types/react@18.2.14)(react@18.2.0)
+      '@radix-ui/react-use-layout-effect': 1.0.1(@types/react@18.2.14)(react@18.2.0)
+      '@radix-ui/react-use-rect': 1.0.1(@types/react@18.2.14)(react@18.2.0)
+      '@radix-ui/react-use-size': 1.0.1(@types/react@18.2.14)(react@18.2.0)
+      '@radix-ui/rect': 1.0.1
+      '@types/react': 18.2.14
+      '@types/react-dom': 18.2.7
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
   /@radix-ui/react-portal@1.0.3(@types/react-dom@18.2.7)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-xLYZeHrWoPmA5mEKEfZZevoVRK/Q43GfzRXkWV6qawIWWK8t6ifIiLQdd7rmQ4Vk1bmI21XhqF9BN3jWf+phpA==}
     peerDependencies:
@@ -1217,8 +1250,8 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@radix-ui/react-tooltip@1.0.6(@types/react-dom@18.2.7)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-DmNFOiwEc2UDigsYj6clJENma58OelxD24O4IODoZ+3sQc3Zb+L8w1EP+y9laTuKCLAysPw4fD6/v0j4KNV8rg==}
+  /@radix-ui/react-tooltip@1.0.7(@types/react-dom@18.2.7)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-lPh5iKNFVQ/jav/j6ZrWq3blfDJ0OH9R6FlNUHPMqdLuQ9vwDgFsRxvl8b7Asuy5c8xmoojHUxKHQSOAvMHxyw==}
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
@@ -1234,10 +1267,10 @@ packages:
       '@radix-ui/primitive': 1.0.1
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.14)(react@18.2.0)
       '@radix-ui/react-context': 1.0.1(@types/react@18.2.14)(react@18.2.0)
-      '@radix-ui/react-dismissable-layer': 1.0.4(@types/react-dom@18.2.7)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
+      '@radix-ui/react-dismissable-layer': 1.0.5(@types/react-dom@18.2.7)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-id': 1.0.1(@types/react@18.2.14)(react@18.2.0)
-      '@radix-ui/react-popper': 1.1.2(@types/react-dom@18.2.7)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
-      '@radix-ui/react-portal': 1.0.3(@types/react-dom@18.2.7)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
+      '@radix-ui/react-popper': 1.1.3(@types/react-dom@18.2.7)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
+      '@radix-ui/react-portal': 1.0.4(@types/react-dom@18.2.7)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-presence': 1.0.1(@types/react-dom@18.2.7)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-primitive': 1.0.3(@types/react-dom@18.2.7)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-slot': 1.0.2(@types/react@18.2.14)(react@18.2.0)
@@ -1378,9 +1411,9 @@ packages:
       '@babel/runtime': 7.23.1
     dev: false
 
-  /@remix-run/router@1.7.2:
-    resolution: {integrity: sha512-7Lcn7IqGMV+vizMPoEl5F0XDshcdDYtMI6uJLQdQz5CfZAwy3vvGKYSUk789qndt5dEC4HfSjviSYlSoHGL2+A==}
-    engines: {node: '>=14'}
+  /@remix-run/router@1.10.0:
+    resolution: {integrity: sha512-Lm+fYpMfZoEucJ7cMxgt4dYt8jLfbpwRCzAjm9UgSLOkmlqo9gupxt6YX3DY0Fk155NT9l17d/ydi+964uS9Lw==}
+    engines: {node: '>=14.0.0'}
     dev: false
 
   /@rushstack/eslint-patch@1.5.1:
@@ -2586,6 +2619,11 @@ packages:
 
   /dompurify@3.0.6:
     resolution: {integrity: sha512-ilkD8YEnnGh1zJ240uJsW7AzE+2qpbOUYjacomn3AvJ6J4JhKGSZ2nh4wUIXPZrEPppaCLx5jFe8T89Rk8tQ7w==}
+    dev: false
+
+  /dotenv@16.3.1:
+    resolution: {integrity: sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==}
+    engines: {node: '>=12'}
     dev: false
 
   /duck@0.1.12:
@@ -4752,9 +4790,9 @@ packages:
     hasBin: true
     dev: false
 
-  /nanoid@4.0.2:
-    resolution: {integrity: sha512-7ZtY5KTCNheRGfEFxnedV5zFiORN1+Y1N6zvPTnHQd8ENUvfaDBeuJDZb2bN/oXwXxu3qkTXDzy57W5vAmDTBw==}
-    engines: {node: ^14 || ^16 || >=18}
+  /nanoid@5.0.2:
+    resolution: {integrity: sha512-2ustYUX1R2rL/Br5B/FMhi8d5/QzvkJ912rBYxskcpu0myTHzSZfTr1LAS2Sm7jxRUObRrSBFoyzwAhL49aVSg==}
+    engines: {node: ^18 || >=20}
     hasBin: true
     dev: false
 
@@ -5353,26 +5391,26 @@ packages:
       use-sidecar: 1.1.2(@types/react@18.2.14)(react@18.2.0)
     dev: false
 
-  /react-router-dom@6.14.2(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-5pWX0jdKR48XFZBuJqHosX3AAHjRAzygouMTyimnBPOLdY3WjzUSKhus2FVMihUFWzeLebDgr4r8UeQFAct7Bg==}
-    engines: {node: '>=14'}
+  /react-router-dom@6.17.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-qWHkkbXQX+6li0COUUPKAUkxjNNqPJuiBd27dVwQGDNsuFBdMbrS6UZ0CLYc4CsbdLYTckn4oB4tGDuPZpPhaQ==}
+    engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
     dependencies:
-      '@remix-run/router': 1.7.2
+      '@remix-run/router': 1.10.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      react-router: 6.14.2(react@18.2.0)
+      react-router: 6.17.0(react@18.2.0)
     dev: false
 
-  /react-router@6.14.2(react@18.2.0):
-    resolution: {integrity: sha512-09Zss2dE2z+T1D03IheqAFtK4UzQyX8nFPWx6jkwdYzGLXd5ie06A6ezS2fO6zJfEb/SpG6UocN2O1hfD+2urQ==}
-    engines: {node: '>=14'}
+  /react-router@6.17.0(react@18.2.0):
+    resolution: {integrity: sha512-YJR3OTJzi3zhqeJYADHANCGPUu9J+6fT5GLv82UWRGSxu6oJYCKVmxUcaBQuGm9udpWmPsvpme/CdHumqgsoaA==}
+    engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
     dependencies:
-      '@remix-run/router': 1.7.2
+      '@remix-run/router': 1.10.0
       react: 18.2.0
     dev: false
 
