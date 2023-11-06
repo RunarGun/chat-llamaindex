@@ -24,7 +24,7 @@ const DEMO_BOTS: Omit<Bot, "id" | "session">[] = [
   },
   {
     avatar: "1f5a5-fe0f",
-    name: "Red Hat Linux Expert",
+    name: "Linux Expert",
     botHello: "Hello! How can I help you with Red Hat Linux?",
     context: [
       {
